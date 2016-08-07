@@ -1,5 +1,5 @@
-//please contact me giaiphapthuonghieu.org@gmail.com
-//website http://giaiphapthuonghieu.vn or http://faceseo.vn
+//please contact me sangiaodichmaymac@gmail.com
+//website http://sangiaodichmaymac.vn 
 
 (function($) {
     $.fn.linhnguyen = function(options) {        
