@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://lh3.googleusercontent.com/-ODGWuJ54FpU/V6arfnSrrqI/AAAAAAAAIVA/r3aFzlMK_lIc5-JAh6SoeyTa_w2aIg2iQCL0B/w795-d-h551-p-rw/popup%2Bsgdmm.jpg' width='500px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='https://lh3.googleusercontent.com/-ODGWuJ54FpU/V6arfnSrrqI/AAAAAAAAIVA/r3aFzlMK_lIc5-JAh6SoeyTa_w2aIg2iQCL0B/w795-d-h551-p-rw/popup%2Bsgdmm.jpg' width='650px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
