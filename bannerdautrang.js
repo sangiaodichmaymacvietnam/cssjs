@@ -109,15 +109,15 @@
     }//orbit plugin call
 })(jQuery);
         
-$(window).load(function() {
+jQuery(window).load(function() {
 		if(document.cookie.indexOf("adf") == -1)
 		{
 			document.cookie = "adfpopunder1=adf";
 			var divpopup = document.createElement("div");
-			$(divpopup).attr('id', 'myModal');
-			$(divpopup).attr('class', 'linhnguyen-modal');
-			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='https://lh3.googleusercontent.com/-ODGWuJ54FpU/V6arfnSrrqI/AAAAAAAAIVA/r3aFzlMK_lIc5-JAh6SoeyTa_w2aIg2iQCL0B/w795-d-h551-p-rw/popup%2Bsgdmm.jpg' width='650px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
-			$('#myModal').linhnguyen($('#myModal').data());
+			jQuery(divpopup).attr('id', 'myModal');
+			jQuery(divpopup).attr('class', 'linhnguyen-modal');
+			jQuery( "body" ).append(divpopup);
+			jQuery("#myModal").html("<a href='https://lh3.googleusercontent.com/-ODGWuJ54FpU/V6arfnSrrqI/AAAAAAAAIVA/r3aFzlMK_lIc5-JAh6SoeyTa_w2aIg2iQCL0B/w795-d-h551-p-rw/popup%2Bsgdmm.jpg' width='650px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
