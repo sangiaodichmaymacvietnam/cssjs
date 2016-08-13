@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='http://sangiaodichmaymac.vn' target='_blank'> <img src='https://lh3.googleusercontent.com/-ODGWuJ54FpU/V6arfnSrrqI/AAAAAAAAIVA/r3aFzlMK_lIc5-JAh6SoeyTa_w2aIg2iQCL0B/w795-d-h551-p-rw/popup%2Bsgdmm.jpg' width='650px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='http://sangiaodichmaymac.vn' target='_blank'> <img src='http://www.sangiaodichmaymac.vn/wp-content/uploads/2016/08/popup-sgdmm.jpg' width='650px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
