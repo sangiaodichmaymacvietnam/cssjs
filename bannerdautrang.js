@@ -1,5 +1,5 @@
-//please contact me sangiaodichmaymac@gmail.com
-//website http://sangiaodichmaymac.vn 
+//please contact me giaiphapthuonghieu.org@gmail.com
+//website http://giaiphapthuonghieu.vn or http://faceseo.vn
 
 (function($) {
     $.fn.linhnguyen = function(options) {        
@@ -117,7 +117,7 @@ jQuery(window).load(function() {
 			jQuery(divpopup).attr('id', 'myModal');
 			jQuery(divpopup).attr('class', 'linhnguyen-modal');
 			jQuery( "body" ).append(divpopup);
-			jQuery("#myModal").html("<a href='http://sangiaodichmaymac.vn' target='_blank'> <img src='http://www.sangiaodichmaymac.vn/wp-content/uploads/2016/08/popup-sgdmm.jpg' width='650px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam.<h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery("#myModal").html("<a href='http://sangiaodichmaymac.vn' target='_blank'><img src='http://www.sangiaodichmaymac.vn/wp-content/uploads/2016/08/popup-sgdmm.jpg' width='500px'/><br/>May Đồng Phục</a>. tại Sàn Giao Dịch May Mặc Việt Nam. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
